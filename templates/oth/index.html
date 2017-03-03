@@ -1,64 +1,79 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block title %} Online Treasure Hunt | Home{% endblock %} {% block navigation %}
+<li class="active"><a href="/">Home</a></li>
+<li><a href="{% url 'play' %}" class="play">Play</a></li>
+<li><a href="{% url 'display_leaderboard' %}" class="leader">Leaderboard</a></li>
 
-{% block title %} Online Treasure Hunt | Home{% endblock %}
+{% endblock %} {% block content%}
+<div class="start-page">
+    <div class="page-header">
+        <h1 class="text-center">Online Treasure Hunt</h1>
+    </div>
+    <p>
+        <h3>What's this?</h3>
+        <p style="font-size:18px; " class="text-left">This is an online treasure hunt (OTH). For the uninitiated, an OTH is an online game where you need to solve a series of clues to win the ultimate prize.
+        </p>
 
-{% block navigation %}
-        <li class="active"><a href="/">Home</a></li>
-         <li><a href="{% url 'play' %}">Play</a></li>
-        <li><a href="{% url 'display_leaderboard' %}">Leaderboard</a></li>
-  
-{% endblock %}
+        <h3>Rules</h3>
+        <p style="font-size:18px;" class="text-left">
+            Like any game, an OTH follows its own set of rules. To make the most out of the game, do give them a read:
+        </p>
+        <ul style="font-size:16px;">
+            <li>
 
-{% block content%}
-        <div class="start-page">
-        	<div class="page-header">
-            <h1 class="text-center">Online Treasure Hunt</h1>
+                The game play involves getting to the next level by whatever means necessary.
+            </li>
+            <li>
+
+                There is only one way to get across levels - Entering the answer in the text box. Changing URL's will not work :P
+            </li>
+            <li>
+                Answers are not case sensitive. In case the answer contains more than one word, do not forget to include spaces.
+            </li>
+            <li>
+
+                We try to cover most possible answers to a level, but do try out different combinations of answers.
+            </li>
+            <li>
+                Google is your best friend :D If you're stuck on a question, check inGenius 2016 Facebook page for hints.
+            </li>
+            <li>
+                We have observed, based on experiences from the previous OTHs that in spite of getting the right answers, players refuse to enter them and try them out! We have no restrictions on the number of attempts, so do abuse this rule to the fullest.
+            </li>
+        </ul>
+
+        <p style="font-size:18px;" class="text-left">
+
+            What are you waiting for? Start your pursuit!
+        </p>
+
+
+        <p>
+            <div id="startbutton" class="text-center">
+                <a href="{% url 'display_level' 1%}" class="startlink"><button class="btn btn-primary btn-lg" id="actualbtn"></button></a>
             </div>
-            <p>
-            <h3 >What's this?</h3>
-			<p style="font-size:18px; " class="text-left">This is an online treasure hunt (OTH). For the uninitiated, an OTH is an online game where you need to solve a series of clues to win the ultimate prize.   
-            </p>
-
-			<h3>Rules</h3>
-			<p style="font-size:18px;" class="text-left">
-            		Like any game, an OTH follows its own set of rules. To make the most out of the game, do give them a read:    
-            </p>
-<ul style="font-size:16px;">
-    <li>
-        
-    The game play involves getting to the next level by whatever means necessary.
-    </li>
-<li>
-    
-There is only one way to get across levels -
-Entering the answer in the text box.
-Changing URL's will not work :P
-</li>
-<li>
-    Answers are not case sensitive. In case the answer contains more than one word, do not forget to include spaces. 
-</li>
-<li>
-    
-    We try to cover most possible answers to a level, but do try out different combinations of answers. 
-</li>
-<li>
-    Google is your best friend :D If you're stuck on a question, check inGenius 2016 Facebook page for hints.
-</li>
-<li>
-    We have observed, based on experiences from the previous OTHs that in spite of getting the right answers, players refuse to enter them and try them out! We have no restrictions on the number of attempts, so do abuse this rule to the fullest.
-</li>
-</ul>
-
-<p style="font-size:18px;" class="text-left">
-    
-What are you waiting for? Start your pursuit!
-</p>
-
-            {{ level }}
-            <p> 
-            <a href="{% url 'display_level' 1%}"><button class="btn btn-primary btn-lg">Start</button></a>      	
-</p>
+           
+        </p>
+        <br>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="showmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">The Pursuit</h4>
+      </div>
+      <div class="modal-body">
+        <p>The OTH is now live. 
             <br>
-        </div>
-        
+            <br>
+             <a href="{% url 'display_level' 1%}" class="startlink"><button class="btn btn-primary btn-lg" id="actualbtn"></button></a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 {% endblock %}

@@ -40,8 +40,8 @@
           </ul>
       {% else %}
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/accounts/login">Login</a></li>
-                <li><a href="/accounts/register">Register</a></li>
+                <li><a href="/accounts/login" class="login">Login</a></li>
+                <li><a href="/accounts/register" class="logout">Register</a></li>
             </ul>
       {% endif %}
 
@@ -67,6 +67,66 @@
   ga('send', 'pageview');
 
 </script>
+ <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+            <script>
+              $("#showmodal").hide();
+              let started = false;
+            date = new Date();
+            var othdate = new Date("Fri Mar 03 2017 20:19:00 GMT+0530 (IST)");
+            if((othdate <= date) == true){
+                $('#actualbtn').prop('disabled', false);
+                $("#actualbtn").text("Start")
+                
+                $('.startlink').unbind('click', false);
+            }
+            else{
+                if (window.location.href== "/accounts/") {
+   window.location.href = '/'; 
+}
+ if (window.location.pathname== "/accounts/login/") {
+
+   window.location.href = '/'; 
+}
+ if (window.location.pathname== "/play/") {
+
+   window.location.href = '/'; 
+}
+if (window.location.pathname== "/accounts/register/") {
+
+   window.location.href = '/'; 
+}
+                $('#actualbtn').prop('disabled', true);
+                $('.startlink').bind('click', false);
+                $('.play').bind('click', false);
+                $('.leader').bind('click', false);
+                 $('.login').bind('click', false);
+                $('.logout').bind('click', false);
+                $("#actualbtn").text("Starting soon!");
+            }
+            function refreshAt(hours, minutes, seconds) {
+    var now = new Date();
+    var then = new Date();
+
+    if(now.getHours() > hours ||
+       (now.getHours() == hours && now.getMinutes() > minutes) ||
+        now.getHours() == hours && now.getMinutes() == minutes && now.getSeconds() >= seconds) {
+        then.setDate(now.getDate() + 1);
+    }
+    then.setHours(hours);
+    then.setMinutes(minutes);
+    then.setSeconds(seconds);
+
+    var timeout = (then.getTime() - now.getTime());
+    setTimeout(function() { window.location.reload(true); started = true }, timeout);
+}
+refreshAt(20,19,0);
+if(started)
+$("#showmodal").show();
+            </script>
+
 </body>
 
 </html>
