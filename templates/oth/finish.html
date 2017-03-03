@@ -7,6 +7,8 @@
         <li><a href="/">Home</a></li>
         <li class="active"><a href="{% url 'play' %}">Play</a></li>
         <li><a href="{% url 'display_leaderboard' %}">Leaderboard</a></li>
+        <li><a href="http://tedxpesitbsc.com" target = "_blank">TEDxPESITBSC</a></li>
+<li><a href="http://pesitsouthacm.org" target = "_blank">PESITSouth ACM</a></li>
 {% endblock %}
 
 {% block content %}
@@ -14,8 +16,9 @@
         <h1 align="center">Congrats!</h1>
         <br>
         <div>
-            <h3 align="justify">Kudos <strong>{{ request.user.username }}</strong> for completing the OTH! Thanks for taking part and we hope to see you next time.</h3>
+            <h3 align="justify">Kudos <strong>{{ request.user.username }}</strong> for completing ThePursuit! Thanks for taking part and we hope to see you next time.</h3>
             <br>
+            <h3 align="justify">Before you leave, please checkout the <a target="_blank " href= "http://tedxpesitbsc.com" class="text-primary">TEDxPESITBSC</a> website as well as the <a target="_blank " href= "http://pesitsouthacm.org" class="text-primary">PESITSouth ACM</a> website.</h3>
             <img class='img-responsive' src="{% static 'images/fireworks.jpg' %}"><br>
             
         </div>
