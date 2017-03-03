@@ -1,30 +1,27 @@
 {% extends 'base.html' %}
 
-{% block title %} The Pursuit | Home{% endblock %}
+{% block title %} Online Treasure Hunt | Home{% endblock %}
 
 {% block navigation %}
         <li class="active"><a href="/">Home</a></li>
          <li><a href="{% url 'play' %}">Play</a></li>
         <li><a href="{% url 'display_leaderboard' %}">Leaderboard</a></li>
   
-        <li><a href="http://ingeniushack.com" target="_blank">inGenius2016</a></li>
 {% endblock %}
 
 {% block content%}
         <div class="start-page">
         	<div class="page-header">
-            <h1 class="text-center">The Pursuit</h1>
+            <h1 class="text-center">Online Treasure Hunt</h1>
             </div>
             <p>
-            <h3 >What is The Pursuit?</h3>
-			<p style="font-size:18px; " class="text-left">The Pursuit is a bi-annual online treasure hunt conducted by the PESITSouth ACM Student Chapter. We're back with the 4th iteration this year and we're bigger than ever :D
-                
+            <h3 >What's this?</h3>
+			<p style="font-size:18px; " class="text-left">This is an online treasure hunt (OTH). For the uninitiated, an OTH is an online game where you need to solve a series of clues to win the ultimate prize.   
             </p>
 
 			<h3>Rules</h3>
 			<p style="font-size:18px;" class="text-left">
-                
-            The rules are pretty much the same for those who have played the previous editions of The Pursuit. But there are a few more things we have added that we feel might have been missed out on earlier occasions. Please read carefully :)
+            		Like any game, an OTH follows its own set of rules. To make the most out of the game, do give them a read:    
             </p>
 <ul style="font-size:16px;">
     <li>
@@ -48,34 +45,20 @@ Changing URL's will not work :P
     Google is your best friend :D If you're stuck on a question, check inGenius 2016 Facebook page for hints.
 </li>
 <li>
-    We have observed, based on experiences from the previous versions of The Pursuit, that in spite of getting the right answers, players refuse to enter them and try them out! We have no restrictions on the number of attempts, so do abuse this rule outrightly
+    We have observed, based on experiences from the previous OTHs that in spite of getting the right answers, players refuse to enter them and try them out! We have no restrictions on the number of attempts, so do abuse this rule to the fullest.
 </li>
 </ul>
 
 <p style="font-size:18px;" class="text-left">
     
-What are you waiting for? Start your Pursuit!
+What are you waiting for? Start your pursuit!
 </p>
 
-            
-            <p>
-            <a href="{% url 'display_level' 1%}"><button class="btn btn-primary btn-lg">Start</button></a>
-        	</p>
+            {{ level }}
+            <p> 
+            <a href="{% url 'display_level' 1%}"><button class="btn btn-primary btn-lg">Start</button></a>      	
+</p>
             <br>
-           <div class="row">
-           <div class="col-md-6" style=" border-right: 1px solid #ccc; height:150px">
-           <br>
-           <br>
-               <p style="font-size:40px;">Powered by</p>
-           </div>
-               <div class="col-md-6">
-                     {% load static %}
-
-            <a href="http://ingeniushack.com" target="_blank"><img src="{% static 'images/logo12.png' %}"></a>
-           </div>
-               
-           </div>
-      
         </div>
         
 {% endblock %}

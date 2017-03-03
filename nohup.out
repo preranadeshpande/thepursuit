@@ -1,0 +1,960 @@
+[03/Feb/2017 22:40:05] "GET /admin HTTP/1.1" 301 0
+[03/Feb/2017 22:40:06] "GET /admin/ HTTP/1.1" 302 0
+[03/Feb/2017 22:40:07] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1657
+[03/Feb/2017 22:40:09] "GET /static/admin/css/base.css HTTP/1.1" 200 13995
+[03/Feb/2017 22:40:09] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[03/Feb/2017 22:40:11] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+Not Found: /favicon.ico
+[03/Feb/2017 22:40:13] "GET /favicon.ico HTTP/1.1" 404 2830
+Not Found: /favicon.ico
+[03/Feb/2017 22:40:13] "GET /favicon.ico HTTP/1.1" 404 2830
+[03/Feb/2017 22:40:18] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/Feb/2017 22:40:19] "GET /admin/ HTTP/1.1" 200 4564
+[03/Feb/2017 22:40:21] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[03/Feb/2017 22:40:22] "GET /static/admin/img/default-bg.gif HTTP/1.1" 200 836
+[03/Feb/2017 22:40:23] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 200 119
+[03/Feb/2017 22:40:23] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 200 119
+[03/Feb/2017 22:41:27] "GET /admin HTTP/1.1" 301 0
+[03/Feb/2017 22:41:27] "GET /admin/ HTTP/1.1" 302 0
+[03/Feb/2017 22:41:28] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1657
+[03/Feb/2017 22:41:28] "GET /static/admin/css/base.css HTTP/1.1" 200 13995
+[03/Feb/2017 22:41:28] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[03/Feb/2017 22:41:28] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+Not Found: /favicon.ico
+[03/Feb/2017 22:41:28] "GET /favicon.ico HTTP/1.1" 404 2830
+[03/Feb/2017 22:41:40] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1818
+[03/Feb/2017 22:41:40] "GET /static/admin/img/icon_error.gif HTTP/1.1" 200 319
+[03/Feb/2017 22:41:56] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/Feb/2017 22:41:57] "GET /admin/ HTTP/1.1" 200 4564
+[03/Feb/2017 22:41:57] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[03/Feb/2017 22:41:57] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 200 119
+[03/Feb/2017 22:41:57] "GET /static/admin/img/default-bg.gif HTTP/1.1" 200 836
+[03/Feb/2017 22:41:57] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 200 119
+[03/Feb/2017 22:42:13] "GET /admin/ HTTP/1.1" 302 0
+[03/Feb/2017 22:42:14] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1657
+[03/Feb/2017 22:42:16] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[03/Feb/2017 22:42:16] "GET /static/admin/css/base.css HTTP/1.1" 200 13995
+[03/Feb/2017 22:42:17] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+[03/Feb/2017 22:49:43] "GET /admin/oth/level/add/ HTTP/1.1" 200 5673
+[03/Feb/2017 22:49:43] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[03/Feb/2017 22:49:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[03/Feb/2017 22:49:44] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[03/Feb/2017 22:49:44] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[03/Feb/2017 22:49:44] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[03/Feb/2017 22:49:44] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[03/Feb/2017 22:49:45] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[03/Feb/2017 22:49:46] "GET /static/admin/js/urlify.js HTTP/1.1" 200 6178
+[03/Feb/2017 22:49:47] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1409
+[03/Feb/2017 22:49:47] "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+[03/Feb/2017 22:49:48] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[03/Feb/2017 22:49:49] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[03/Feb/2017 22:49:52] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[03/Feb/2017 22:49:53] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 200 178
+[04/Feb/2017 00:27:28] "GET /admin/ HTTP/1.1" 200 4564
+[04/Feb/2017 00:27:28] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Feb/2017 00:27:28] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[04/Feb/2017 00:27:28] "GET /static/admin/img/default-bg.gif HTTP/1.1" 304 0
+[04/Feb/2017 00:27:28] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 304 0
+[04/Feb/2017 00:27:28] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 304 0
+[04/Feb/2017 00:27:28] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[04/Feb/2017 00:27:28] "GET /favicon.ico HTTP/1.1" 404 2830
+Not Found: /favicon.ico
+[04/Feb/2017 00:27:28] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 00:27:31] "GET /admin/oth/level/ HTTP/1.1" 200 3025
+[04/Feb/2017 00:27:31] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5254
+[04/Feb/2017 00:27:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 00:27:31] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[04/Feb/2017 00:27:31] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[04/Feb/2017 00:27:31] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[04/Feb/2017 00:27:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[04/Feb/2017 00:27:32] "GET /static/admin/js/urlify.js HTTP/1.1" 200 6178
+[04/Feb/2017 00:27:32] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[04/Feb/2017 00:27:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1409
+[04/Feb/2017 00:27:32] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Feb/2017 00:27:33] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 200 119
+[04/Feb/2017 00:27:33] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 200 178
+[04/Feb/2017 00:29:06] "GET /admin/oth/level/add/ HTTP/1.1" 200 5673
+[04/Feb/2017 00:29:07] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[04/Feb/2017 00:29:07] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[04/Feb/2017 00:29:07] "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+[04/Feb/2017 00:29:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 00:29:07] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[04/Feb/2017 00:29:55] "GET /admin/ HTTP/1.1" 200 4564
+[04/Feb/2017 00:30:01] "GET / HTTP/1.1" 200 3930
+[04/Feb/2017 00:30:03] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 00:30:03] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 00:30:03] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 00:30:05] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+[04/Feb/2017 00:54:25] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 00:54:27] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 00:54:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 00:54:30] "GET /play/ HTTP/1.1" 302 0
+[04/Feb/2017 00:54:30] "GET /static/admin/img/icon_success.gif HTTP/1.1" 200 341
+[04/Feb/2017 00:54:31] "GET /level/1 HTTP/1.1" 200 2865
+[04/Feb/2017 00:54:37] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 00:58:18] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 00:58:20] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 00:58:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 00:59:27] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 00:59:29] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 00:59:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:02:16] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 01:02:18] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 01:02:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:03:41] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 01:03:43] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 01:03:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:06:09] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 01:06:10] "GET /admin/oth/level/add/ HTTP/1.1" 200 5883
+[04/Feb/2017 01:06:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:08:31] "GET /static/admin/img/default-bg-reverse.gif HTTP/1.1" 200 835
+[04/Feb/2017 01:08:38] "POST /admin/oth/level/add/ HTTP/1.1" 302 0
+[04/Feb/2017 01:08:38] "GET /admin/oth/level/ HTTP/1.1" 200 5649
+[04/Feb/2017 01:08:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 03, 2017 - 22:39:08
+Django version 1.10, using settings 'thepursuit.settings.local'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Feb/2017 01:11:07] "GET /admin/ HTTP/1.1" 200 6571
+[04/Feb/2017 01:11:11] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 01:11:11] "GET /level/2 HTTP/1.1" 200 2812
+[04/Feb/2017 01:11:12] "GET /media/clues/vWjx9lawVe6T.jpg HTTP/1.1" 200 615602
+[04/Feb/2017 01:11:29] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 01:11:29] "GET /level/3 HTTP/1.1" 200 2881
+[04/Feb/2017 01:11:35] "GET /media/clues/20FVjfOdwIcQ.jpg HTTP/1.1" 200 447413
+[04/Feb/2017 01:11:42] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 01:11:43] "GET /level/4 HTTP/1.1" 200 2889
+[04/Feb/2017 01:11:52] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[04/Feb/2017 01:11:53] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 01:11:54] "GET /level/5 HTTP/1.1" 200 2890
+[04/Feb/2017 01:12:06] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 01:12:07] "GET /level/6 HTTP/1.1" 200 2913
+[04/Feb/2017 01:12:08] "GET /media/clues/kJ9HmwWxx079.jpg HTTP/1.1" 200 81942
+[04/Feb/2017 01:12:19] "POST /level/6 HTTP/1.1" 302 0
+[04/Feb/2017 01:12:20] "GET /level/7 HTTP/1.1" 200 2915
+[04/Feb/2017 01:12:23] "GET /media/clues/N5doPEqCijiy.jpg HTTP/1.1" 200 174195
+[04/Feb/2017 01:12:29] "POST /level/7 HTTP/1.1" 302 0
+[04/Feb/2017 01:12:31] "GET /finish HTTP/1.1" 301 0
+[04/Feb/2017 01:12:32] "GET /finish/ HTTP/1.1" 200 2464
+[04/Feb/2017 01:12:35] "GET /static/images/fireworks.jpg HTTP/1.1" 200 135427
+[04/Feb/2017 01:12:43] "GET /leaderboard/ HTTP/1.1" 200 3136
+[04/Feb/2017 01:12:43] "GET /static/images/completed.png HTTP/1.1" 200 958
+[04/Feb/2017 01:12:52] "GET /admin/oth/userprofile/ HTTP/1.1" 200 4232
+[04/Feb/2017 01:12:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:12:58] "GET /admin/oth/userprofile/1/change/ HTTP/1.1" 200 5740
+[04/Feb/2017 01:13:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:13:04] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[04/Feb/2017 01:13:04] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[04/Feb/2017 01:13:04] "GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 200 181
+[04/Feb/2017 01:13:11] "POST /admin/oth/userprofile/1/change/ HTTP/1.1" 302 0
+[04/Feb/2017 01:13:11] "GET /admin/oth/userprofile/ HTTP/1.1" 200 4432
+[04/Feb/2017 01:13:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 01:29:21] "GET /media/clues/k3yXcCaHniNw.jpg HTTP/1.1" 200 368640
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[04/Feb/2017 01:29:21] "GET /media/clues/k3yXcCaHniNw.jpg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/utils/log.py", line 173, in format
+    if args[1][0] == '2':
+IndexError: tuple index out of range
+Logged from file basehttp.py, line 85
+[04/Feb/2017 04:43:18] "GET / HTTP/1.1" 200 3930
+[04/Feb/2017 04:43:19] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 04:43:20] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 04:43:21] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 04:43:23] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+Not Found: /favicon.ico
+[04/Feb/2017 04:43:24] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 04:43:42] "GET /accounts/logout HTTP/1.1" 301 0
+[04/Feb/2017 04:43:44] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[04/Feb/2017 04:43:54] "GET /accounts/login HTTP/1.1" 301 0
+[04/Feb/2017 04:43:56] "GET /accounts/login/ HTTP/1.1" 200 2860
+[04/Feb/2017 04:44:02] "GET /accounts/register HTTP/1.1" 301 0
+[04/Feb/2017 04:44:03] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 04:44:41] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 04:44:41] "GET / HTTP/1.1" 200 3934
+[04/Feb/2017 04:44:54] "GET /level/1 HTTP/1.1" 200 2869
+[04/Feb/2017 04:44:57] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 04:45:32] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 04:45:33] "GET /level/1 HTTP/1.1" 200 2869
+[04/Feb/2017 04:45:41] "GET /accounts/logout HTTP/1.1" 301 0
+[04/Feb/2017 04:45:41] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[04/Feb/2017 04:51:38] "GET / HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[04/Feb/2017 04:51:39] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 04:51:45] "GET /accounts/login HTTP/1.1" 301 0
+[04/Feb/2017 04:51:45] "GET /accounts/login/ HTTP/1.1" 200 2860
+[04/Feb/2017 04:51:56] "POST /accounts/login/ HTTP/1.1" 302 0
+[04/Feb/2017 04:51:56] "GET / HTTP/1.1" 200 3934
+[04/Feb/2017 10:32:41] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 10:33:34] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 10:33:35] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 10:33:36] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 10:34:52] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+[04/Feb/2017 10:35:16] "GET / HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[04/Feb/2017 10:35:24] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 10:35:25] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 10:35:27] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 10:37:54] "GET /admin/ HTTP/1.1" 200 6877
+[04/Feb/2017 10:37:55] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Feb/2017 10:37:56] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[04/Feb/2017 10:37:58] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 304 0
+[04/Feb/2017 10:37:58] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 304 0
+[04/Feb/2017 10:38:01] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[04/Feb/2017 10:38:01] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 10:38:01] "GET /admin/oth/level/ HTTP/1.1" 200 5472
+[04/Feb/2017 10:38:01] "GET /static/admin/img/default-bg.gif HTTP/1.1" 304 0
+[04/Feb/2017 10:38:02] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:03] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:03] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:04] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:04] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+[04/Feb/2017 10:38:04] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[04/Feb/2017 10:38:06] "GET /admin/oth/level/1/change/ HTTP/1.1" 200 6192
+[04/Feb/2017 10:38:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:07] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[04/Feb/2017 10:38:07] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:07] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[04/Feb/2017 10:38:08] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[04/Feb/2017 10:38:09] "GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 304 0
+[04/Feb/2017 10:38:09] "GET /admin/oth/level/2/change/ HTTP/1.1" 200 6189
+[04/Feb/2017 10:38:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:11] "GET /admin/oth/level/3/change/ HTTP/1.1" 200 6212
+[04/Feb/2017 10:38:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:13] "GET /admin/oth/level/4/change/ HTTP/1.1" 200 6221
+[04/Feb/2017 10:38:14] "GET /admin/oth/level/5/change/ HTTP/1.1" 200 6223
+[04/Feb/2017 10:38:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:15] "GET /admin/oth/level/6/change/ HTTP/1.1" 200 6246
+[04/Feb/2017 10:38:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:38:16] "GET /admin/oth/level/7/change/ HTTP/1.1" 200 6240
+[04/Feb/2017 10:38:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[04/Feb/2017 10:41:01] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 10:41:02] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 10:41:02] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 10:41:02] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 10:41:05] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+Not Found: /favicon.ico
+[04/Feb/2017 10:41:08] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 10:41:08] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 10:41:09] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 10:41:28] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 10:41:53] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 10:42:55] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 10:42:56] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 10:43:18] "POST /accounts/login/?next=/level/1 HTTP/1.1" 200 3181
+[04/Feb/2017 10:43:23] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 10:43:29] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 10:43:30] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 10:47:23] "POST /accounts/register/ HTTP/1.1" 200 3711
+[04/Feb/2017 10:47:55] "POST /accounts/register/ HTTP/1.1" 200 3695
+[04/Feb/2017 11:13:06] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 11:14:02] "POST /accounts/register/ HTTP/1.1" 200 3672
+[04/Feb/2017 11:14:13] "POST /accounts/register/ HTTP/1.1" 200 3672
+[04/Feb/2017 11:14:16] "POST /accounts/register/ HTTP/1.1" 200 3672
+[04/Feb/2017 11:15:46] "POST /accounts/register/ HTTP/1.1" 200 3669
+[04/Feb/2017 11:17:43] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 11:18:10] "GET / HTTP/1.1" 200 3936
+[04/Feb/2017 11:18:59] "GET /level/1 HTTP/1.1" 200 2871
+[04/Feb/2017 11:19:13] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 11:20:25] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 11:24:32] "GET / HTTP/1.1" 200 3928
+[04/Feb/2017 11:24:35] "GET /static/css/website.css HTTP/1.1" 304 0
+[04/Feb/2017 11:24:37] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[04/Feb/2017 11:24:37] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[04/Feb/2017 11:25:11] "GET /static/images/bg.jpg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[04/Feb/2017 11:26:31] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 11:26:32] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 11:26:33] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 11:27:21] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 11:27:22] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+Not Found: /favicon.ico
+[04/Feb/2017 11:27:30] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 11:27:34] "GET /accounts/register/ HTTP/1.1" 200 3507
+Forbidden (CSRF token missing or incorrect.): /accounts/register/
+[04/Feb/2017 11:27:39] "POST /accounts/register/ HTTP/1.1" 403 2502
+Forbidden (CSRF token missing or incorrect.): /accounts/register/
+[04/Feb/2017 11:27:56] "POST /accounts/register/ HTTP/1.1" 403 2502
+[04/Feb/2017 11:34:00] "POST /accounts/register/ HTTP/1.1" 200 3641
+[04/Feb/2017 11:34:17] "POST /accounts/register/ HTTP/1.1" 200 3641
+[04/Feb/2017 11:34:21] "POST /accounts/register/ HTTP/1.1" 200 3641
+[04/Feb/2017 11:34:29] "POST /accounts/register/ HTTP/1.1" 200 3641
+[04/Feb/2017 11:35:02] "GET /level/1 HTTP/1.1" 200 2871
+[04/Feb/2017 11:37:55] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 11:56:34] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 11:57:14] "GET /level/1 HTTP/1.1" 200 2871
+[04/Feb/2017 12:03:24] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:05:04] "GET /level/1 HTTP/1.1" 200 2871
+[04/Feb/2017 12:05:13] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:05:19] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:05:46] "GET /level/2 HTTP/1.1" 200 2818
+[04/Feb/2017 12:06:26] "GET /level/2 HTTP/1.1" 200 2818
+[04/Feb/2017 12:06:27] "GET /media/clues/vWjx9lawVe6T.jpg HTTP/1.1" 200 615602
+[04/Feb/2017 12:07:18] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 12:07:19] "GET /level/3 HTTP/1.1" 200 2887
+[04/Feb/2017 12:07:20] "GET /media/clues/20FVjfOdwIcQ.jpg HTTP/1.1" 200 447413
+[04/Feb/2017 12:08:13] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 12:08:13] "GET /level/3 HTTP/1.1" 200 2887
+[04/Feb/2017 12:08:26] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 12:08:26] "GET /level/3 HTTP/1.1" 200 2887
+[04/Feb/2017 12:09:52] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 12:09:53] "GET /level/3 HTTP/1.1" 200 2887
+[04/Feb/2017 12:10:28] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 12:10:30] "GET /level/3 HTTP/1.1" 200 2887
+[04/Feb/2017 12:11:31] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 12:11:32] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:11:33] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[04/Feb/2017 12:12:46] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[04/Feb/2017 12:13:13] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:13:13] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:20:36] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:20:43] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:21:55] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:21:56] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:22:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[04/Feb/2017 12:22:04] "GET /static/css/website.css HTTP/1.1" 304 0
+[04/Feb/2017 12:22:04] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[04/Feb/2017 12:22:08] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 304 0
+[04/Feb/2017 12:22:14] "GET /static/images/bg.jpg HTTP/1.1" 304 0
+[04/Feb/2017 12:22:14] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:22:18] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:23:00] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:23:01] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:23:23] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:23:23] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:23:27] "GET /leaderboard/ HTTP/1.1" 200 3348
+[04/Feb/2017 12:23:28] "GET /static/images/completed.png HTTP/1.1" 200 958
+[04/Feb/2017 12:23:31] "GET /play/ HTTP/1.1" 302 0
+[04/Feb/2017 12:23:31] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:24:36] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:24:37] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:30:38] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:30:38] "GET /level/4 HTTP/1.1" 200 2895
+[04/Feb/2017 12:30:54] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 12:30:55] "GET /level/4 HTTP/1.1" 200 2895
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[04/Feb/2017 12:41:52] "GET /accounts/logout HTTP/1.1" 301 0
+[04/Feb/2017 12:42:26] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[04/Feb/2017 12:43:18] "GET /accounts/register HTTP/1.1" 301 0
+[04/Feb/2017 12:43:18] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 12:43:19] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 12:43:22] "GET /accounts/register HTTP/1.1" 301 0
+[04/Feb/2017 12:43:51] "POST /accounts/register/ HTTP/1.1" 200 3640
+[04/Feb/2017 12:44:04] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 12:44:04] "GET / HTTP/1.1" 200 3932
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[04/Feb/2017 12:55:38] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 12:55:40] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 304 0
+[04/Feb/2017 12:56:18] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:56:44] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 12:56:54] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:57:12] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 12:57:13] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:57:17] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:57:59] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 12:58:07] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:58:22] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 12:58:57] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 12:58:59] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 12:58:59] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 12:59:32] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 12:59:37] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+[04/Feb/2017 12:59:50] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 12:59:56] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 13:00:36] "POST /accounts/login/?next=/level/1 HTTP/1.1" 200 3182
+[04/Feb/2017 13:00:44] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 13:01:19] "POST /accounts/register/ HTTP/1.1" 200 3646
+[04/Feb/2017 13:01:42] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 13:01:44] "GET / HTTP/1.1" 200 3932
+[04/Feb/2017 13:01:53] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 13:02:45] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:02:48] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:02:58] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 13:02:58] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:03:00] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 13:04:24] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:04:32] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 13:04:45] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:04:46] "GET /level/1 HTTP/1.1" 200 2867
+[04/Feb/2017 13:05:16] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:05:17] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:05:20] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:05:22] "GET /level/2 HTTP/1.1" 200 2814
+[04/Feb/2017 13:05:32] "GET /media/clues/vWjx9lawVe6T.jpg HTTP/1.1" 200 615602
+[04/Feb/2017 13:06:35] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:06:41] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:05] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:06] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:10] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:27] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:32] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:45] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:07:47] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:08:04] "GET /level/2 HTTP/1.1" 200 2814
+[04/Feb/2017 13:10:27] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:10:36] "GET /level/2 HTTP/1.1" 200 2814
+[04/Feb/2017 13:16:35] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:16:39] "GET /level/2 HTTP/1.1" 200 2814
+[04/Feb/2017 13:17:07] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:17:14] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:17:15] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:17:18] "GET /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 13:17:20] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:17:24] "GET /media/clues/20FVjfOdwIcQ.jpg HTTP/1.1" 200 447413
+[04/Feb/2017 13:17:45] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:17:46] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:17:59] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:18:02] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:19:02] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:19:05] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:19:27] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:19:28] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:19:46] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:19:46] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:20:18] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:20:29] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:20:51] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:20:51] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:21:02] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:21:03] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:21:21] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:21:26] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:21:39] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:21:41] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:23:05] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:23:05] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:23:24] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 13:23:25] "GET /level/3 HTTP/1.1" 200 2883
+[04/Feb/2017 13:25:40] "GET /accounts/logout HTTP/1.1" 301 0
+[04/Feb/2017 13:25:41] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[04/Feb/2017 13:25:44] "GET /accounts/register HTTP/1.1" 301 0
+[04/Feb/2017 13:25:44] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 13:26:21] "POST /accounts/register/ HTTP/1.1" 200 3711
+[04/Feb/2017 13:26:47] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 13:26:52] "GET / HTTP/1.1" 200 3929
+[04/Feb/2017 13:27:04] "GET /level/1 HTTP/1.1" 200 2864
+[04/Feb/2017 13:27:42] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:27:45] "GET /level/1 HTTP/1.1" 200 2864
+[04/Feb/2017 13:28:45] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:28:46] "GET /level/1 HTTP/1.1" 200 2864
+Forbidden (CSRF cookie not set.): /level/1
+[04/Feb/2017 13:42:02] "POST /level/1 HTTP/1.1" 403 2857
+Forbidden (CSRF cookie not set.): /level/1
+[04/Feb/2017 13:42:12] "POST /level/1 HTTP/1.1" 403 2857
+[04/Feb/2017 13:42:17] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 13:42:18] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 13:42:19] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 13:42:20] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 13:42:21] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 13:42:23] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+[04/Feb/2017 13:43:22] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 13:44:13] "POST /accounts/login/?next=/level/1 HTTP/1.1" 200 3182
+[04/Feb/2017 13:55:41] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 13:56:16] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 13:56:17] "GET / HTTP/1.1" 200 3931
+[04/Feb/2017 13:56:21] "GET /level/1 HTTP/1.1" 200 2866
+[04/Feb/2017 13:56:25] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 15:03:18] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 40960
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/utils/log.py", line 173, in format
+    if args[1][0] == '2':
+IndexError: tuple index out of range
+Logged from file basehttp.py, line 85
+[04/Feb/2017 15:03:20] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[04/Feb/2017 15:03:23] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 15:03:25] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 15:03:27] "GET /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 15:03:27] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[04/Feb/2017 15:03:27] "GET /static/css/website.css HTTP/1.1" 200 1108
+[04/Feb/2017 15:03:29] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[04/Feb/2017 15:03:29] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[04/Feb/2017 15:03:33] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+[04/Feb/2017 15:04:07] "GET /accounts/register/ HTTP/1.1" 200 3507
+[04/Feb/2017 15:04:49] "POST /accounts/register/ HTTP/1.1" 200 3642
+[04/Feb/2017 15:04:58] "POST /accounts/register/ HTTP/1.1" 200 3642
+[04/Feb/2017 15:05:06] "POST /accounts/register/ HTTP/1.1" 200 3667
+[04/Feb/2017 15:05:18] "POST /accounts/register/ HTTP/1.1" 302 0
+[04/Feb/2017 15:05:18] "GET / HTTP/1.1" 200 3937
+[04/Feb/2017 15:05:40] "GET /level/1 HTTP/1.1" 200 2872
+[04/Feb/2017 15:09:13] "POST /level/1 HTTP/1.1" 302 0
+[04/Feb/2017 15:09:14] "GET /level/2 HTTP/1.1" 200 2819
+[04/Feb/2017 15:09:19] "GET /media/clues/vWjx9lawVe6T.jpg HTTP/1.1" 200 615602
+[04/Feb/2017 15:09:34] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 15:09:34] "GET /level/2 HTTP/1.1" 200 2819
+[04/Feb/2017 15:09:43] "POST /level/2 HTTP/1.1" 302 0
+[04/Feb/2017 15:09:43] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:09:46] "GET /media/clues/20FVjfOdwIcQ.jpg HTTP/1.1" 200 447413
+[04/Feb/2017 15:09:53] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:09:54] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:15:52] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:15:52] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:16:07] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:16:08] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:16:13] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:16:14] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:16:26] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:16:26] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:16:52] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:16:52] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:16:57] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:16:57] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:17:02] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:17:02] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:17:11] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:17:11] "GET /level/3 HTTP/1.1" 200 2888
+[04/Feb/2017 15:17:54] "POST /level/3 HTTP/1.1" 302 0
+[04/Feb/2017 15:17:54] "GET /level/4 HTTP/1.1" 200 2896
+[04/Feb/2017 15:17:56] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[04/Feb/2017 15:18:12] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 15:18:12] "GET /level/4 HTTP/1.1" 200 2896
+[04/Feb/2017 15:18:25] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 15:18:26] "GET /level/4 HTTP/1.1" 200 2896
+[04/Feb/2017 15:18:35] "GET / HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[04/Feb/2017 15:18:35] "GET /favicon.ico HTTP/1.1" 404 2830
+[04/Feb/2017 15:19:59] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 15:19:59] "GET /level/4 HTTP/1.1" 200 2896
+[04/Feb/2017 15:20:16] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 15:20:16] "GET /level/4 HTTP/1.1" 200 2896
+[04/Feb/2017 15:21:13] "POST /level/4 HTTP/1.1" 302 0
+[04/Feb/2017 15:21:13] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:21:16] "GET /media/clues/k3yXcCaHniNw.jpg HTTP/1.1" 200 681198
+[04/Feb/2017 15:21:53] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:21:56] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:23:45] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:23:46] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:24:00] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:24:01] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:25:13] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:25:13] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:25:20] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:25:20] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:26:09] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:26:09] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:26:21] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:26:22] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:26:50] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:26:50] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:26:55] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:26:56] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:27:03] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:27:03] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:27:13] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:27:13] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:27:28] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:27:29] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:28:03] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:28:03] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:28:09] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:28:10] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:31:34] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:31:35] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:33:24] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:33:25] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:33:46] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:33:50] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:33:52] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:33:52] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:34:14] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:34:15] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:34:23] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:34:24] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:35:02] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:35:04] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:35:17] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:35:17] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:37:20] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:37:21] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:37:37] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:37:39] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:37:55] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:37:56] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:38:46] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:38:46] "GET /level/5 HTTP/1.1" 200 2897
+[04/Feb/2017 15:39:13] "POST /level/5 HTTP/1.1" 302 0
+[04/Feb/2017 15:39:14] "GET /level/6 HTTP/1.1" 200 2920
+[04/Feb/2017 15:39:14] "GET /media/clues/kJ9HmwWxx079.jpg HTTP/1.1" 200 81942
+[04/Feb/2017 18:16:27] "GET / HTTP/1.1" 200 3930
+[04/Feb/2017 18:16:28] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[04/Feb/2017 18:16:28] "GET /static/css/website.css HTTP/1.1" 304 0
+[04/Feb/2017 18:16:28] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[04/Feb/2017 18:16:28] "GET /static/images/bg.jpg HTTP/1.1" 304 0
+[04/Feb/2017 18:16:31] "GET /leaderboard/ HTTP/1.1" 200 4103
+[04/Feb/2017 18:16:31] "GET /static/images/completed.png HTTP/1.1" 304 0
+Not Found: /http:/m.sogou.com/
+[04/Feb/2017 21:21:06] "GET http://m.sogou.com/?rands=_952996409630522880 HTTP/1.0" 404 1678
+Not Found: /http:/www.ip.cn/
+[04/Feb/2017 21:21:06] "GET http://www.ip.cn/?rands=_106148774413314931108920 HTTP/1.0" 404 1676
+Not Found: /http:/www.baidu.com/
+[04/Feb/2017 21:21:07] "GET http://www.baidu.com/?rands=_5221531501785696340808 HTTP/1.0" 404 1690
+[05/Feb/2017 11:31:42] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xa4\xa4\xa8\x9e\xa6W\x9e\x8e\xf6.k\xc6\xbfe\x96\x80')
+[05/Feb/2017 11:31:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Feb/2017 13:37:44] "POST /level/6 HTTP/1.1" 302 0
+[05/Feb/2017 13:37:44] "GET /level/7 HTTP/1.1" 200 2922
+[05/Feb/2017 13:37:45] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[05/Feb/2017 13:37:45] "GET /static/css/website.css HTTP/1.1" 304 0
+[05/Feb/2017 13:37:45] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[05/Feb/2017 13:37:45] "GET /static/images/bg.jpg HTTP/1.1" 304 0
+[05/Feb/2017 13:37:45] "GET /media/clues/N5doPEqCijiy.jpg HTTP/1.1" 200 174195
+[05/Feb/2017 13:37:55] "GET / HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[05/Feb/2017 13:37:55] "GET /favicon.ico HTTP/1.1" 404 2830
+[05/Feb/2017 13:45:32] "GET /accounts/logout HTTP/1.1" 301 0
+[05/Feb/2017 13:45:32] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[05/Feb/2017 15:53:13] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Feb/2017 15:53:13] "    c                           " 400 -
+[05/Feb/2017 19:35:44] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc7\x1c'\x02\x8b\xd5\x8e\xc34&k\xbc\x08\xbc\x82\xba\xbc\x01\xb0\xfc\xc5\x818\xc2h,\xdcK\xff\xb18r\x00\x00p\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa3\x00\x9f\x00\xa2\x00\x9e\xc0(\xc0$\xc0\x14\xc0")
+[05/Feb/2017 19:35:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.ip.cn/
+[06/Feb/2017 05:45:56] "GET http://www.ip.cn/?rands=_182105656041102788178536 HTTP/1.0" 404 1676
+Not Found: /http:/m.sogou.com/
+[06/Feb/2017 05:45:57] "GET http://m.sogou.com/?rands=_9521046229951522880 HTTP/1.0" 404 1679
+Not Found: /http:/www.baidu.com/
+[06/Feb/2017 05:45:57] "GET http://www.baidu.com/?rands=_1204024637612130201293372 HTTP/1.0" 404 1693
+[06/Feb/2017 14:00:34] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xae\xf6\xe1p}\x15\x9e7\x8b\xcb\xbe\xa8\xda#"\xfd:\xe4TP\x05\xaa\xda\'\xe9\x1b\x84$\xe0\x8c\xc5\xde\x00\x00p\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa3\x00\x9f\x00\xa2\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+[06/Feb/2017 14:00:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Feb/2017 07:33:38] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Feb/2017 11:55:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Feb/2017 18:43:39] "GET /accounts/logout/ HTTP/1.1" 200 1978
+Not Found: /favicon.ico
+[08/Feb/2017 18:43:40] "GET /favicon.ico HTTP/1.1" 404 2830
+[08/Feb/2017 22:11:14] "GET /accounts/register HTTP/1.1" 301 0
+[08/Feb/2017 22:11:14] "GET /accounts/register/ HTTP/1.1" 200 3507
+[08/Feb/2017 22:11:15] "GET /static/css/website.css HTTP/1.1" 304 0
+[08/Feb/2017 22:11:15] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[08/Feb/2017 22:11:15] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[08/Feb/2017 22:11:17] "GET /static/images/bg.jpg HTTP/1.1" 304 0
+[09/Feb/2017 14:33:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Feb/2017 14:33:41] "    c                           " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Feb/2017 16:16:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /favicon.ico
+[09/Feb/2017 19:17:14] "GET /favicon.ico HTTP/1.1" 404 2830
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Feb/2017 20:37:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[10/Feb/2017 22:05:10] "GET /manager/html HTTP/1.1" 404 2833
+[11/Feb/2017 10:50:13] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x08\x83@\x11<\x15jV\xd5\x8f\xcd\xb7\xa5/\xb6<\xb2\x0fd\xdd\x85i&\xb6\xb6>\xac\x887@Tw\x00\x00p\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa3\x00\x9f\x00\xa2\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+[11/Feb/2017 10:50:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Feb/2017 00:58:37] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[12/Feb/2017 02:00:34] "GET / HTTP/1.1" 200 3928
+Not Found: /w00tw00t.at.ISC.SANS.DFind:)
+[12/Feb/2017 16:58:51] "GET /w00tw00t.at.ISC.SANS.DFind:) HTTP/1.1" 404 2886
+[13/Feb/2017 00:38:15] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03~\xf6\x8bD\xe7\xb7Mj&\x1dxtU\xd7\xbc\xd0\xab=4\x81j\x10\x03\x0fC\x90\x1f\xfaw\x8c\xbe\x14\x00\x00p\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa3\x00\x9f\x00\xa2\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+[13/Feb/2017 00:38:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Feb/2017 05:20:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Feb/2017 09:44:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Feb/2017 14:07:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[15/Feb/2017 22:19:23] "GET / HTTP/1.0" 200 3928
+[15/Feb/2017 22:19:30] "GET / HTTP/1.1" 200 3928
+Not Found: /http:/www.google.com
+[15/Feb/2017 22:19:30] "GET http://www.google.com HTTP/1.0" 404 1661
+[15/Feb/2017 22:19:30] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:30] "OPTIONS / HTTP/1.1" 200 3928
+Not Found: /.git/HEAD
+[15/Feb/2017 22:19:30] "GET /.git/HEAD HTTP/1.1" 404 2819
+Not Found: /robots.txt
+[15/Feb/2017 22:19:30] "GET /robots.txt HTTP/1.1" 404 2822
+Not Found: /http:/www.google.com
+[15/Feb/2017 22:19:31] "HEAD http://www.google.com HTTP/1.0" 404 1662
+[15/Feb/2017 22:19:31] "OPTIONS / HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[15/Feb/2017 22:19:31] "GET /favicon.ico HTTP/1.1" 404 2825
+[15/Feb/2017 22:19:31] "GET / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:32] "OPTIONS / HTTP/1.1" 200 3928
+Not Found: /www.google.com:80
+[15/Feb/2017 22:19:32] "CONNECT www.google.com:80 HTTP/1.0" 404 1663
+[15/Feb/2017 22:19:32] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:33] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:34] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:35] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:36] "OPTIONS / HTTP/1.1" 200 3928
+[15/Feb/2017 22:19:37] "OPTIONS / HTTP/1.1" 200 3928
+[16/Feb/2017 15:09:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03,\xbc4\xae\x96\xce\x8e\xbf\xb1\x93')
+[16/Feb/2017 15:09:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[16/Feb/2017 18:32:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Feb/2017 22:56:44] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/m.search.yahoo.com/
+[18/Feb/2017 06:02:42] "GET http://m.search.yahoo.com/ HTTP/1.1" 404 1680
+Forbidden (CSRF cookie not set.): /
+[18/Feb/2017 13:13:31] "POST / HTTP/1.0" 403 2857
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[19/Feb/2017 03:21:10] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[19/Feb/2017 21:48:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc3\xb1L\xff\xf8q\x88\x16\x97\xa3\xcb\xd3Y\xfdg\xee\x92\x06l\xcbA')
+[19/Feb/2017 21:48:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /www.google.com:80
+[20/Feb/2017 04:55:59] "CONNECT www.google.com:80 HTTP/1.0" 404 1663
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[20/Feb/2017 07:43:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.ip.cn/
+[20/Feb/2017 11:16:33] "GET http://www.ip.cn/?rands=_479526329619788002560532 HTTP/1.0" 404 1676
+Not Found: /http:/m.sogou.com/
+[20/Feb/2017 11:16:33] "GET http://m.sogou.com/?rands=_148267160402046564727188 HTTP/1.0" 404 1684
+Not Found: /http:/www.baidu.com/
+[20/Feb/2017 11:16:34] "GET http://www.baidu.com/?rands=_479529920021534002935244 HTTP/1.0" 404 1692
+Not Found: /http:/www.google.ru/search
+[21/Feb/2017 02:07:46] "GET http://www.google.ru/search?q=yandex HTTP/1.1" 404 1687
+[21/Feb/2017 02:07:47] code 400, message Bad request syntax ('\x04\x01\x00PJ}\xe8\xf8\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/utils/log.py", line 191, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe8 in position 7: ordinal not in range(128)
+Logged from file basehttp.py, line 131
+[21/Feb/2017 02:07:48] code 400, message Bad request syntax ('\x05\x01\x00')
+[21/Feb/2017 02:07:48] " " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Feb/2017 12:07:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Feb/2017 16:30:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Feb/2017 20:52:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[24/Feb/2017 17:05:08] "GET / HTTP/1.1" 200 3928
+[24/Feb/2017 17:05:08] "GET /static/css/website.css HTTP/1.1" 200 1108
+[24/Feb/2017 17:05:08] "GET /static/css/bootstrap.css HTTP/1.1" 200 132546
+[24/Feb/2017 17:05:08] "GET /static/js/bootstrap.js HTTP/1.1" 200 60681
+[24/Feb/2017 17:05:08] "GET /static/images/bg.jpg HTTP/1.1" 200 89065
+Not Found: /favicon.ico
+[24/Feb/2017 17:05:09] "GET /favicon.ico HTTP/1.1" 404 2830
+[24/Feb/2017 17:05:13] "GET /level/1 HTTP/1.1" 302 0
+[24/Feb/2017 17:05:13] "GET /accounts/login/?next=/level/1 HTTP/1.1" 200 2868
+[24/Feb/2017 17:05:16] "GET /accounts/register/ HTTP/1.1" 200 3507
+[24/Feb/2017 17:05:53] "POST /accounts/register/ HTTP/1.1" 200 3672
+[24/Feb/2017 17:06:11] "POST /accounts/register/ HTTP/1.1" 200 3647
+[24/Feb/2017 17:06:27] "POST /accounts/register/ HTTP/1.1" 302 0
+[24/Feb/2017 17:06:27] "GET / HTTP/1.1" 200 3937
+[24/Feb/2017 17:06:37] "GET /level/1 HTTP/1.1" 200 2872
+[24/Feb/2017 17:06:38] "GET /media/clues/9UvKDEQNwQlB.jpg HTTP/1.1" 200 458160
+[24/Feb/2017 17:11:20] "POST /level/1 HTTP/1.1" 302 0
+[24/Feb/2017 17:11:20] "GET /level/1 HTTP/1.1" 200 2872
+[24/Feb/2017 17:11:50] "POST /level/1 HTTP/1.1" 302 0
+[24/Feb/2017 17:11:50] "GET /level/2 HTTP/1.1" 200 2819
+[24/Feb/2017 17:11:51] "GET /media/clues/vWjx9lawVe6T.jpg HTTP/1.1" 200 615602
+[24/Feb/2017 17:13:07] "POST /level/2 HTTP/1.1" 302 0
+[24/Feb/2017 17:13:07] "GET /level/3 HTTP/1.1" 200 2888
+[24/Feb/2017 17:13:07] "GET /media/clues/20FVjfOdwIcQ.jpg HTTP/1.1" 200 447413
+[24/Feb/2017 17:14:30] "POST /level/3 HTTP/1.1" 302 0
+[24/Feb/2017 17:14:30] "GET /level/4 HTTP/1.1" 200 2896
+[24/Feb/2017 17:14:31] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[24/Feb/2017 17:16:06] "POST /level/4 HTTP/1.1" 302 0
+[24/Feb/2017 17:16:06] "GET /level/4 HTTP/1.1" 200 2896
+[24/Feb/2017 17:16:52] "POST /level/4 HTTP/1.1" 302 0
+[24/Feb/2017 17:16:52] "GET /level/4 HTTP/1.1" 200 2896
+[24/Feb/2017 17:20:59] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 304 0
+[24/Feb/2017 17:21:45] "GET /media/clues/OYVxlGCHdRUq.jpg HTTP/1.1" 200 633150
+[24/Feb/2017 17:22:33] "POST /level/4 HTTP/1.1" 302 0
+[24/Feb/2017 17:22:33] "GET /level/5 HTTP/1.1" 200 2897
+[24/Feb/2017 17:22:34] "GET /media/clues/k3yXcCaHniNw.jpg HTTP/1.1" 200 681198
+[24/Feb/2017 17:23:17] "GET /media/clues/k3yXcCaHniNw.jpg HTTP/1.1" 200 681198
+[24/Feb/2017 17:24:14] "POST /level/5 HTTP/1.1" 302 0
+[24/Feb/2017 17:24:14] "GET /level/5 HTTP/1.1" 200 2897
+[24/Feb/2017 17:24:31] "POST /level/5 HTTP/1.1" 302 0
+[24/Feb/2017 17:24:31] "GET /level/5 HTTP/1.1" 200 2897
+[24/Feb/2017 17:25:48] "POST /level/5 HTTP/1.1" 302 0
+[24/Feb/2017 17:25:48] "GET /level/5 HTTP/1.1" 200 2897
+[24/Feb/2017 17:26:56] "POST /level/5 HTTP/1.1" 302 0
+[24/Feb/2017 17:26:56] "GET /level/6 HTTP/1.1" 200 2920
+[24/Feb/2017 17:26:56] "GET /media/clues/kJ9HmwWxx079.jpg HTTP/1.1" 200 81942
+[24/Feb/2017 17:27:40] "POST /level/6 HTTP/1.1" 302 0
+[24/Feb/2017 17:27:40] "GET /level/7 HTTP/1.1" 200 2922
+[24/Feb/2017 17:27:41] "GET /media/clues/N5doPEqCijiy.jpg HTTP/1.1" 200 174195
+[24/Feb/2017 17:31:07] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:07] "GET /level/7 HTTP/1.1" 200 2922
+[24/Feb/2017 17:31:07] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:07] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:08] "GET /level/7 HTTP/1.1" 200 2922
+[24/Feb/2017 17:31:24] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:24] "GET /level/7 HTTP/1.1" 200 2922
+[24/Feb/2017 17:31:24] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:25] "GET /level/7 HTTP/1.1" 200 2922
+[24/Feb/2017 17:31:51] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:51] "GET /finish HTTP/1.1" 301 0
+[24/Feb/2017 17:31:51] "POST /level/7 HTTP/1.1" 302 0
+[24/Feb/2017 17:31:51] "GET /finish HTTP/1.1" 301 0
+[24/Feb/2017 17:31:51] "GET /finish/ HTTP/1.1" 200 2478
+[24/Feb/2017 17:31:51] "GET /static/images/fireworks.jpg HTTP/1.1" 200 135427
+[24/Feb/2017 17:32:26] "GET /accounts/logout HTTP/1.1" 301 0
+[24/Feb/2017 17:32:26] "GET /accounts/logout/ HTTP/1.1" 200 1978
+[24/Feb/2017 20:24:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00H\x01\x00\x00D\x03\x01X\xb0I\x1d#\xba\x10\xfcF\x14k"i\xd3t\xdd*\xe2\x14g\x07]\xa7/@\'\xd8\'')
+[24/Feb/2017 20:24:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Feb/2017 20:24:20] code 400, message Bad request syntax ("\x16\x03\x01\x00H\x01\x00\x00D\x03\x01X\xb0I\x1eA:\x97\x86\x104\xd2\xc6\xf5\x1dA\x01'\x99\xf9\x8a\xb0\xca\x8d\x13.W\x1cUl\x8a\xe8,\x00\x00\x16\x00\x04\x00\x05\x00")
+[24/Feb/2017 20:24:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Feb/2017 20:24:20] code 400, message Bad request syntax ('\x16\x03\x01\x00H\x01\x00\x00D\x03\x01X\xb0I\x1eM\x16\xb9\x87K\xd0\xdfm\x85VhY&Rr\xca}\xb7\xd9\xf5Fm\x1d+\x19S\x06T\x00\x00\x16\x00\x04\x00\x05\x00')
+[24/Feb/2017 20:24:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Feb/2017 20:24:21] code 400, message Bad request syntax ('\x16\x03\x01\x00H\x01\x00\x00D\x03\x01X\xb0I\x1fI\x9d)c\x13\x99\xb0\x01\x86\xdfs1IQ\xa5]W\x10o\x9b\x10>\xda\x8f[\xbaS\xd1\x00\x00\x16\x00\x04\x00\x05\x00')
+[24/Feb/2017 20:24:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Feb/2017 20:24:21] code 400, message Bad request version ('\xacx\x14\xb9\xe7\xd7\x83q\xe8\x00\x00\x16\x00\x04\x00\x05\x00')
+[24/Feb/2017 20:24:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Feb/2017 01:13:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[25/Feb/2017 11:34:18] "GET /admin/ HTTP/1.1" 302 0
+[25/Feb/2017 11:34:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1657
+[25/Feb/2017 11:34:18] "GET /static/admin/css/base.css HTTP/1.1" 200 13995
+[25/Feb/2017 11:34:18] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[25/Feb/2017 11:34:18] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+[25/Feb/2017 19:18:49] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xf8H\x8fSF<vZO\xc6w\x97\xaa\xe4\xdd\xb2\xf8\xa8zd\x9b\xdc5\x8eN\xc6\xf2A\x08\xcfQ\x16\x00\x00p\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa3\x00\x9f\x00\xa2\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+[25/Feb/2017 19:18:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.ip.cn/
+[25/Feb/2017 19:56:27] "GET http://www.ip.cn/?rands=_532251075084915623520 HTTP/1.0" 404 1673
+Not Found: /http:/m.sogou.com/
+[25/Feb/2017 19:56:29] "GET http://m.sogou.com/?rands=_241906582802989352523008 HTTP/1.0" 404 1684
+Not Found: /http:/www.baidu.com/
+[25/Feb/2017 19:56:29] "GET http://www.baidu.com/?rands=_4422423540680790859560 HTTP/1.0" 404 1690
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Feb/2017 05:35:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/m.search.yahoo.com/
+[26/Feb/2017 07:50:18] "GET http://m.search.yahoo.com/ HTTP/1.1" 404 1680
+[26/Feb/2017 18:28:17] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[26/Feb/2017 18:28:17] "    c                           " 400 -
+Not Found: /cgi-bin/nobody/Machine.cgi
+[27/Feb/2017 07:00:04] "GET /cgi-bin/nobody/Machine.cgi?action=get_capability HTTP/1.1" 404 2892
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Feb/2017 09:58:14] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /cgi-bin/nobody/Machine.cgi
+[27/Feb/2017 11:44:02] "GET /cgi-bin/nobody/Machine.cgi?action=get_capability HTTP/1.1" 404 2892
+Not Found: /http:/m.search.yahoo.com/
+[28/Feb/2017 01:30:28] "GET http://m.search.yahoo.com/ HTTP/1.1" 404 1680
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Feb/2017 14:18:45] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[28/Feb/2017 22:46:27] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/amjad/oth/venv/local/lib/python2.7/site-packages/django/utils/log.py", line 191, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 131
+Not Found: /http:/www.ip.cn/
+[01/Mar/2017 12:31:56] "GET http://www.ip.cn/?rands=_1422054602223013121743852 HTTP/1.0" 404 1677
+Not Found: /http:/m.sogou.com/
+[01/Mar/2017 12:32:02] "GET http://m.sogou.com/?rands=_981040056816306622314432 HTTP/1.0" 404 1684

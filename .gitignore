@@ -4,3 +4,6 @@ db.sqlite3
 venv
 media/
 .DS_Store
+oth/migrations
+logs
+thepursuit_db.cnf

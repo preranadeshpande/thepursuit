@@ -7,7 +7,10 @@ from django.shortcuts import render, get_object_or_404, HttpResponseRedirect, re
 from oth.models import Level, UserProfile
 
 def index(request):
-    return render(request, 'oth/index.html')
+    current_user = request.user.profile
+    current_level = current_user.current_level
+    level_object = get_object_or_404(Level, level_number__exact=int(current_level))
+    return render(request, 'oth/index.html', {'level' : current_level})
 
 @login_required
 def display_level(request, level):
