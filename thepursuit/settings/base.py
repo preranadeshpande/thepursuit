@@ -136,5 +136,5 @@ EMAIL_USE_TLS = True
 
 # Custom settings
 
-MAX_LEVELS = 15
+MAX_LEVELS = 1
 LOGIN_REDIRECT_URL = "/"
