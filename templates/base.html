@@ -75,7 +75,7 @@
               $("#showmodal").hide();
               let started = false;
             date = new Date();
-            var othdate = new Date("Fri Mar 04 2017 12:10:00 GMT+0530 (IST)");
+            var othdate = new Date("Fri Mar 04 2017 18:00:00 GMT+0530 (IST)");
             if((othdate <= date) == true){
                 $('#actualbtn').prop('disabled', false);
                 $("#actualbtn").text("Start")
@@ -122,7 +122,7 @@ if (window.location.pathname== "/accounts/register/") {
     var timeout = (then.getTime() - now.getTime());
     setTimeout(function() { window.location.reload(true); started = true }, timeout);
 }
-refreshAt(12,10,0);
+refreshAt(18,00,0);
 if(started)
 $("#showmodal").show();
             </script>
