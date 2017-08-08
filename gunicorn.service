@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=curious
+Group=www-data
+WorkingDirectory=/home/curious/surfit
+ExecStart=/home/curious/surfit/surfitenv/bin/gunicorn --workers 3 --bind unix:/home/curious/surfit/surfit.sock surfit.wsgi:application --settings=surfit.settings.production
+
+[Install]
+WantedBy=multi-user.target

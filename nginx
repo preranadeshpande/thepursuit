@@ -1,0 +1,19 @@
+server {
+    listen 80;
+    server_name surfit.maayafest.com;
+
+    access_log /home/curious/surfit/logs/access.log;
+    error_log /home/curious/surfit/logs/error.log;
+
+    location /static/ {
+        alias /home/curious/surfit/static/;
+    }
+    location /media/ {
+alias /home/curious/surfit/media/;
+}	
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/curious/surfit/surfit.sock;
+    }
+}
