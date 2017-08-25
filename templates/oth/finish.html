@@ -7,20 +7,23 @@
         <li><a href="/">Home</a></li>
         <li class="active"><a href="{% url 'play' %}">Play</a></li>
         <li><a href="{% url 'display_leaderboard' %}">Leaderboard</a></li>
-        <li><a href="/" target = "_blank">PESITsouth compsoc</a></li>
-        <li><a href="http://ingeniushack.com" target = "_blank">inGenius2k17</a></li>
+        <li><a href="/" target = "_blank">PESITSouth IEEE Computer Society</a></li>
+        <li><a href="http://ingeniushack.com" target = "_blank">inGenius2017</a></li>
 {% endblock %}
 
 {% block content %}
-    <div id="make-center"><br>
-      <br>
+    <div id=""><br>
         <h1 align="center">Congrats!</h1>
         <br>
         <div>
             <h3 align="justify">Kudos <strong>{{ request.user.username }}</strong> for completing ThePursuit! Thanks for taking part and we hope to see you next time.</h3>
             <br>
             <br>
-            <h3 align="justify">Before you leave, please checkout the <a target="_blank " href= "http://ingeniushack.com" class="text-primary">inGenius</a> website as well as the <a target="_blank " href= "http://pesitsouthacm.org" class="text-primary">PESITSouth compsoc</a> website.</h3>
+            <h3 align="justify">Registrations for inGenius are now open at <a target="_blank " href= "http://registrations.ingeniushack.com"  style="font-weight: bold; text-decoration: underline; color:cyan">registrations.ingeniushack.com</a>. Please visit the <a target="_blank " href= "http://ingeniushack.com" class="text-primary" style="font-weight: bold; text-decoration: underline; color:cyan">inGenius</a> website for more info!
+            <br>
+            <br>
+            
+             <h3>inGenius 2017 & this OTH are powered by the <a target="_blank " href= "http://pesitsouthacm.org" style="font-weight: bold; text-decoration: underline; color:cyan">PESITSouth IEEE Computer Society</a></h3>
 <br>
 <br>
 <canvas id="canvas"></canvas>
@@ -34,27 +37,12 @@
   bottom: 0;
   z-index: -1;
 }
-#make-center{
- padding-top: 10%;
-
-}
-
-
 </style>
 
 
 
         </div>
     </div>
-
-    <div>
-
-<canvas id="canvas"></canvas>
-    </div>
-
-
-
-
     <script type="text/javascript">
 
     var ctx = canvas.getContext("2d");

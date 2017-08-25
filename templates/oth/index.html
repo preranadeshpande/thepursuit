@@ -2,8 +2,8 @@
 <li class="active"><a href="/">Home</a></li>
 <li><a href="{% url 'play' %}" class="play">Play</a></li>
 <li><a href="{% url 'display_leaderboard' %}" class="leader">Leaderboard</a></li>
-<li><a href="/" target = "_blank">PESITsouth compsoc</a></li>
-<li><a href="http://ingeniushack.com" target = "_blank">inGenius2k17</a></li>
+<li><a href="/" target = "_blank">PESITSouth IEEE Computer Society</a></li>
+<li><a href="http://ingeniushack.com" target = "_blank">inGenius2017</a></li>
 
 {% endblock %} {% block content%}
 <div class="start-page">
@@ -12,7 +12,7 @@
     </div>
     <p>
         <h3>What's ThePursuit?</h3>
-        <p style="font-size:18px; " class="text-left">ThePursuit is an online treasure hunt (OTH). For the uninitiated, an OTH is an online game where you need to solve a series of clues to win the ultimate prize.
+        <p style="font-size:18px; " class="text-left">ThePursuit is an online treasure hunt (OTH). For the uninitiated, an OTH is an online game where you need to solve a series of clues to win the ultimate prize. ThePursuit is one of the most exciting events around, boasting of 400+ participants last year from 26 countries! We're back again this time and this year we're upping the ante, and that means, the top 2 teams to finish first get a free inGenius ticket (if you're shortlisted obviously :P) and a T-Shirt!
         </p>
 
         <h3>Rules</h3>
@@ -20,9 +20,12 @@
             Like any game, an OTH follows its own set of rules. To make the most out of the game, do give them a read:
         </p>
         <ul style="font-size:16px;">
+        <li>
+                ThePursuit is meant to be a team event so do gather your teammates and start your hunt. 
+            </li>
             <li>
 
-                The game play involves getting to the next level by whatever means necessary.
+                The game has a total of 10 levels and involves getting to the next level by whatever means necessary.
             </li>
             <li>
 
@@ -36,7 +39,7 @@
                 We try to cover most possible answers to a level, but do try out different combinations of answers.
             </li>
             <li>
-                Google is your best friend :D If you're stuck on a question, check <a href="https://www.facebook.com/tedxpesitbsc/?ref=br_rs&hc_ref=SEARCH&fref=nf" target="_blank" class="text-primary">TEDxPESITBSC</a> Facebook page for hints.
+                Google is your best friend :D If you're stuck on a question, check <a href="https://www.facebook.com/inGeniusHack/" target="_blank" class="text-default" style="font-weight: bold; text-decoration: underline; color:cyan">inGenius</a> Facebook page for hints.
             </li>
             <li>
                 We have observed, based on experiences from the previous OTHs that in spite of getting the right answers, players refuse to enter them and try them out! We have no restrictions on the number of attempts, so do abuse this rule to the fullest.
@@ -59,14 +62,14 @@
          {% load static %}
          <p style="font-size:30px;">Powered by</p>
            <div class="row">
-           <div class="col-md-6" style=" border-right: 1px solid #ccc; height:100px">
+           <div class="col-md-6" style=" border-right: 1px solid #ccc; height:200px">
 
-               <a href="http://www.tedxpesitbsc.com" target="_blank"><img src="{% static '../../static/images/ingenius.png' %}"  width="300px"; class="center-block"></a>
+               <a href="http://www.ingeniushack.com" target="_blank"><img src="{% static '../../static/images/ingenius.png' %}"  width="450px"; class="center-block"></a>
            </div>
                <div class="col-md-6">
 
 
-            <a href="http://www.pesitsouthacm.org" target="_blank"><img src="{% static '../../static/images/compsoc.png' %}" width="450px"; class="center-block"></a>
+            <a href="http://www.pesitsouthacm.org" target="_blank"><img src="{% static '../../static/images/compsoc.png' %}" width="450px"; class="center-block" style="margin-top:43px"></a>
            </div>
 
            </div>
