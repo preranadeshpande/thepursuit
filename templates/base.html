@@ -48,8 +48,14 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<div id="particles-js">
+
+<div class="container">
 <div class="content shadow">
     {% block content %}{% endblock %}
+</div>
+
+</div>
 </div>
 <div class="footer">
     {% block footer %}
@@ -126,6 +132,34 @@ refreshAt(18,00,0);
 if(started)
 $("#showmodal").show();
             </script>
+
+
+<!-- scripts for particle -->
+<script src="/static/js/particles.js"></script>
+<script src="/static/js/app.js"></script>
+
+<!-- stats.js -->
+<script src="/static/js/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+
+</script>
 
 </body>
 

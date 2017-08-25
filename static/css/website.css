@@ -65,3 +65,15 @@ form {
         width: auto;
     }
 }
+
+
+#particles-js {
+padding: 1em 0;
+
+}
+
+.particles-js-canvas-el {
+position: absolute;
+top:0px;
+bottom:0px;
+}
