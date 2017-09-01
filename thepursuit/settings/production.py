@@ -15,7 +15,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file': '/home/ingenius/oth/thepursuit_db.cnf',
+            'read_default_file': '/home/ingenius/thepursuit/thepursuit_db.cnf',
         },
     }
 }
