@@ -23,10 +23,10 @@ from oth import views as oth_views
 urlpatterns = [
     url(r'^$',oth_views.index,name="index"),
     url(r'^admin/', admin.site.urls),
-    url(r'^accounts/', include('registration.backends.simple.urls')),
-    url(r'^finish/',oth_views.finish,name="finish"),
-    url(r'^play/',oth_views.play,name="play"),
-    url(r'^level/(?P<level>\d+)$',oth_views.display_level,name="display_level"),
-    url(r'^leaderboard/',oth_views.display_leaderboard,name="display_leaderboard"),
+    # url(r'^accounts/', include('registration.backends.simple.urls')),
+    # url(r'^finish/',oth_views.finish,name="finish"),
+    # url(r'^play/',oth_views.play,name="play"),
+    # url(r'^level/(?P<level>\d+)$',oth_views.display_level,name="display_level"),
+    # url(r'^leaderboard/',oth_views.display_leaderboard,name="display_leaderboard"),
 
 ] +  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
