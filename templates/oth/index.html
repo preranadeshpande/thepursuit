@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block title %} ThePursuit | Home{% endblock %} {% block navigation %}
 <li class="active"><a href="/">Home</a></li>
-<li><a href="" class="play">Play</a></li>
-<li><a href="" class="leader">Leaderboard</a></li>
+<li><a href="{% url 'play' %}" class="play">Play</a></li>
+<li><a href="{% url 'display_leaderboard' %}" class="leader">Leaderboard</a></li>
 <li><a href="https://sites.google.com/site/pesitsouthieeecompsoc/" target = "_blank">PESITSouth IEEE Computer Society</a></li>
 <li><a href="http://ingeniushack.com" target = "_blank">inGenius2017</a></li>
 
@@ -172,7 +172,7 @@
 
         <p>
             <div id="startbutton" class="text-center">
-                <a href="" class="startlink"><button class="btn btn-primary btn-lg" id="actualbtn"></button></a>
+                <a href="{% url 'display_level' 1%}" class="startlink"><button class="btn btn-primary btn-lg" id="actualbtn"></button></a>
             </div>
 <div id="countdown-area">
             <!-- Count Down Timer Starts -->
