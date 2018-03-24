@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=curious
 Group=www-data
-WorkingDirectory=/home/curious/surfit
-ExecStart=/home/curious/surfit/surfitenv/bin/gunicorn --workers 3 --bind unix:/home/curious/surfit/surfit.sock surfit.wsgi:application --settings=surfit.settings.production
+WorkingDirectory=/home/tedx/thepursuit
+ExecStart=/home/tedx/thepursuit/venv/bin/gunicorn --workers 3 --bind unix:/home/tedx/thepursuit/thepursuit.sock thepursuit.wsgi:application --settings=thepursuit.settings.production
 
 [Install]
 WantedBy=multi-user.target
