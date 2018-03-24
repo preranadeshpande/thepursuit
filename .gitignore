@@ -6,4 +6,5 @@ media/
 .DS_Store
 oth/migrations
 logs
+*.sock
 thepursuit_db.cnf
