@@ -31,7 +31,7 @@ def display_level(request, level):
             if int(level) == settings.MAX_LEVELS:
                 current_user.completed = True
                 current_user.save();
-            	return HttpResponseRedirect('/finish')
+                return HttpResponseRedirect('/finish')
             return HttpResponseRedirect('/level/%d' % (int(level) + 1))
         return HttpResponseRedirect('/level/%d' % int(level))
 
