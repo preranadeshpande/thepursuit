@@ -24,7 +24,7 @@ def display_level(request, level):
         else:
             return HttpResponseRedirect('/level/%d' % current_level)
     elif request.method == 'POST':
-        user_answer = request.POST['answer'].encode('utf-8')
+        user_answer = request.POST['answer']
 
         if level_object.validate_answer(user_answer) and int(current_level) <= int(level):
             current_user.increment_level()
