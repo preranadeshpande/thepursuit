@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-
+#change
 if __name__ == "__main__":
     if os.environ.get("DJANGO_SETTINGS_MODULE",None) is None:
         os.environ.setdefault("DJANGO_SETTINGS_MODULE",
